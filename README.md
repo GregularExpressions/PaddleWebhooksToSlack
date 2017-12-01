@@ -1,7 +1,7 @@
 # PaddleWebhooksToSlack
 PHP to receive Paddle's webhooks and post them into a Slack room.
 
-1. Create an integration in Slack.
+1. Create an integration in Slack. (Browse Apps -> Custom Integrations -> Incoming WebHooks)
 2. Copy the webhook URL.
 3. Host this `slackPivot.php` file online somewhere.
 4. Set the URL from step 3 as the webhook URL in your Paddle Vendor dashboard (or forward the payload from your business logic webhook file).
