@@ -1,7 +1,7 @@
 <?php
 
 // Get this from Slack: Browse Apps -> Custom Integrations -> Incoming WebHooks
-$slackURL = "https://hooks.slack.com/services/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";
+$slackURL = "https://hooks.slack.com/services/...";
 
 // Pull the alert name for the message title and remove the signature because it's long and not very useful here
 $alert_name = $_POST['alert_name'];
